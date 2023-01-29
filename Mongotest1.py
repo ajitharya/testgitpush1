@@ -9,6 +9,20 @@ d = {
     "email":"arya@ineuron.ai",
     "company":"yazaki"
 }
+
+
+d = {
+    "name":"AjithArya",
+    "email":"arya@ineuron.ai",
+    "company":"yazaki"
+}
+
+d = {
+    "name":"AjithArya",
+    "email":"arya@ineuron.ai",
+    "company":"yazaki"
+}
+
 db1 = client['mongodbtest']
 coll = db1['test1']
 coll.insert_one(d)
